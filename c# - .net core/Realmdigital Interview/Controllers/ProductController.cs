@@ -1,12 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
+using Realdigital.Interview.ViewModels;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using Realmdigital_Interview.ApiModels;
-using Realmdigital_Interview.Helpers;
-using Realmdigital_Interview.ViewModels;
+using Realdigital.Interview.ApiModels;
+using Realdigital.Interview.Helpers;
 
 namespace Realmdigital_Interview.Controllers
 {
@@ -42,6 +42,7 @@ namespace Realmdigital_Interview.Controllers
                 return BadRequest("No Product by that productId found");
         }
 
+        //Reuse the same methods as for GetProductById
         [HttpGet("search/{productName}")]
         public async Task<IActionResult> GetProductsByName(string productName)
         {
@@ -101,7 +102,7 @@ namespace Realmdigital_Interview.Controllers
             string response;
             using (var client = new WebClient())
             {
-                var data = "{\"" + criteriaType + "\"" + ":\"" + productId + "\"}";
+                    var data = "{\"" + criteriaType + "\"" + ":\"" + productId + "\"}";
 
                 client.Headers[HttpRequestHeader.ContentType] = "application/json";
                 response = client.UploadString("http://192.168.0.241/eanlist?type=Web", "POST",

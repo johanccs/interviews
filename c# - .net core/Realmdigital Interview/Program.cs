@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Realmdigital_Interview
+namespace Realdigital.Interview.Domain.DomainEntities.Interview.Domain.DomainEntities
 {
     public class Program
     {

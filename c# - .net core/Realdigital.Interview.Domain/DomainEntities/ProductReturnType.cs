@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace Realdigital.Interview.ViewModels
+namespace Realdigital.Interview.Domain.DomainEntities
 {
-    internal class ProductReturnType
+    public class ProductReturnType
     {
         public string Id { get;}
         public string ItemName { get;}

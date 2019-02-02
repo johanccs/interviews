@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Realdigital.Interview.ApiModels
+namespace Realdigital.Interview.Domain.DomainEntities
 {
     public class ApiResponseProduct
     {

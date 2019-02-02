@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace Realmdigital_Interview
+namespace Realdigital.Interview.Domain.DomainEntities.Interview.Domain.DomainEntities
 {
     public class Startup
     {

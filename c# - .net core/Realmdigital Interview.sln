@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Realmdigital.Interview.Doma
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Realmdigital.Interview.Tests", "Realmdigital.Interview.Tests", "{CFC72BA4-5B2B-4E81-B464-5D3F4E934182}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Realdigital.Interview.Domain", "Realdigital.Interview.Domain\Realdigital.Interview.Domain.csproj", "{D93F4200-4D75-4953-9A06-F46B3CD2BE35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,12 +23,17 @@ Global
 		{B8989A41-4738-4774-85CD-4B66F2E774E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8989A41-4738-4774-85CD-4B66F2E774E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8989A41-4738-4774-85CD-4B66F2E774E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93F4200-4D75-4953-9A06-F46B3CD2BE35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93F4200-4D75-4953-9A06-F46B3CD2BE35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93F4200-4D75-4953-9A06-F46B3CD2BE35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93F4200-4D75-4953-9A06-F46B3CD2BE35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B8989A41-4738-4774-85CD-4B66F2E774E9} = {36EE0F3C-C4CA-4CCF-ABA6-CE0BCD34FA25}
+		{D93F4200-4D75-4953-9A06-F46B3CD2BE35} = {7E34459B-BFF0-4486-BE39-F6B0F07FB0FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {71342273-0EF7-4CEC-BCE8-F152FFFA608E}

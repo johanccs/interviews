@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Realmdigital_Interview.Helpers
+﻿namespace Realdigital.Interview.Helpers
 {
     /***
      *JP - 02-02-2019

@@ -1,6 +1,6 @@
-﻿namespace Realdigital.Interview.ViewModels
+﻿namespace Realdigital.Interview.Domain.DomainEntities
 {
-    internal class PriceReturnType
+    public class PriceReturnType
     {
         public  string Price { get; }
         public string Currency { get; }
