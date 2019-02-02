@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using Realmdigital_Interview.ApiModels;
 
 namespace Realmdigital_Interview.Controllers
 {
@@ -88,19 +89,6 @@ namespace Realmdigital_Interview.Controllers
                 });
             }
             return result;
-        }
-        
-        class ApiResponseProduct
-        {
-            public string BarCode { get; set; }
-            public string ItemName { get; set; }
-            public List<ApiResponsePrice> PriceRecords { get; set; }
-        }
-
-        class ApiResponsePrice
-        {
-            public string SellingPrice { get; set; }
-            public string CurrencyCode { get; set; }
         }
     }
 }
