@@ -1,4 +1,4 @@
-﻿namespace Realdigital.Interview.Domain.DomainEntities
+﻿namespace Realdigital.Interview.Domain.Helpers.Domain.DomainEntities
 {
     public class PriceReturnType
     {

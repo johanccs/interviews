@@ -1,4 +1,4 @@
-﻿namespace Realdigital.Interview.Helpers
+﻿namespace Realdigital.Interview.Domain.Helpers.Helpers
 {
     /***
      *JP - 02-02-2019
