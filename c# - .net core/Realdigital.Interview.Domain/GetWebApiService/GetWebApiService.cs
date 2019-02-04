@@ -1,12 +1,12 @@
-﻿using Newtonsoft.Json;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using Newtonsoft.Json;
 using Realdigital.Interview.Domain.Helpers.Domain.Contracts;
 using Realdigital.Interview.Domain.Helpers.Domain.DomainEntities;
 using Realdigital.Interview.Domain.Helpers.Helpers;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
 
-namespace Realdigital.Interview.Domain.Helpers.Domain.GetWebApiService
+namespace Realdigital.Interview.Domain.GetWebApiService
 {
     public class GetWebApiService : IGetWebApi
     {
