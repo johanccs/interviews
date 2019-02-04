@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Realdigital.Interview.Domain.Helpers.Domain.DomainEntities;
+using Realdigital.Interview.Domain.DomainEntities;
 
-namespace Realdigital.Interview.Domain.Helpers.Domain.Contracts
+namespace Realdigital.Interview.Domain.Contracts
 {
     public interface IGetWebApi
     {

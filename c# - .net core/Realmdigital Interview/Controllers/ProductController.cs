@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Realdigital.Interview.Domain.Helpers.Domain.Contracts;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Realdigital.Interview.Domain.Contracts;
 
 namespace Realmdigital_Interview.Controllers
 {

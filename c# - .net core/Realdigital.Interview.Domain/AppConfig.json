@@ -1,0 +1,5 @@
+{
+  "WebApiConfig": {
+    "WebConfig": "http://192.168.0.241/eanlist?type=Web"
+  }
+}
