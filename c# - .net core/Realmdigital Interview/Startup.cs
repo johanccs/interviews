@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Realdigital.Interview.Domain.Helpers.Domain.Contracts;
 
-namespace Realdigital.Interview.Domain.Helpers.Domain.DomainEntities.Interview.Domain.DomainEntities
+namespace Realmdigital_Interview
 {
     public class Startup
     {
@@ -19,7 +19,7 @@ namespace Realdigital.Interview.Domain.Helpers.Domain.DomainEntities.Interview.D
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddTransient<IGetWebApi, GetWebApiService.GetWebApiService>();
+            services.AddTransient<IGetWebApi, Realdigital.Interview.Domain.GetWebApiService.GetWebApiService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using Realdigital.Interview.Domain.Helpers.Domain.Contracts;
-using Realdigital.Interview.Domain.Helpers.Domain.GetWebApiService;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
